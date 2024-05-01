@@ -69,3 +69,6 @@ backendpatientsrecordsystem
 │                           └── MedicalHistoryNotFoundException.java
 └── pom.xml
 ```
+
+## Contributors
+- [Ishan Avasthi](https://github.com/ishanavasthi)
