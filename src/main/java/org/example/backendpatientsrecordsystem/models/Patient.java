@@ -16,7 +16,7 @@ import java.time.LocalDate;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Patient {
+public class Patient{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -25,11 +25,10 @@ public class Patient {
     private String name;
     private String email;
     private String contactNumber;
-    private String dateOfBirth;
+    private LocalDate dateOfBirth;
 
-    public Long getPatientId() {
-        return id;
-    }
+
+
 
 
 

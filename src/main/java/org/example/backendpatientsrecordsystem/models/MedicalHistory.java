@@ -25,5 +25,5 @@ public class MedicalHistory {
 
     private String diseaseName;
     private String treatmentDetails;
-    private String dateOfDiagnosis;
+    private LocalDate dateOfDiagnosis;
 }

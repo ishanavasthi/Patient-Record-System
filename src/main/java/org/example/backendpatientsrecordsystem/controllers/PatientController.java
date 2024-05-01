@@ -28,7 +28,7 @@ public class PatientController {
         this.appointmentService = appointmentService;
     }
 
-    @PostMapping("")
+    @PutMapping("")
     public Patient addPatient(@RequestBody Patient patient) {
         return patientService.addorUpdatePatient(patient);
     }
@@ -58,5 +58,10 @@ public class PatientController {
     public ResponseEntity<List<Appointment>> getAppointmentsByPatientId(@PathVariable Long patientId) {
         List<Appointment> appointments = appointmentService.getAppointmentListByPatientId(patientId);
         return ResponseEntity.ok(appointments);
+    }
+
+    @GetMapping("/")
+    public List<Patient> getAllPatients() {
+        return patientService.getAllPatients();
     }
 }

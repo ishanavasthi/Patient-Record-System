@@ -31,7 +31,7 @@ public class AppointmentService {
     public Appointment addOrUpdateAppointment(Appointment appointment) {
         Patient patient = appointment.getPatient();
 //
-        if (patient.getPatientId() == null) {
+        if (patient.getId() == null) {
 
             patient = patientRepository.save(patient);
             appointment.setPatient(patient);

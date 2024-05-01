@@ -25,7 +25,7 @@ public class MedicalHistoryService {
     public MedicalHistory addOrUpdateMedicalHistory(MedicalHistory medicalHistory) {
         Patient patient = medicalHistory.getPatient();
 
-        if (patient.getPatientId() == null) {
+        if (patient.getId() == null) {
 
             patient = patientRepository.save(patient);
             medicalHistory.setPatient(patient);
