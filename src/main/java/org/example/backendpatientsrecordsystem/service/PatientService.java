@@ -31,9 +31,10 @@ public class PatientService {
             throw new EmailValidator(email, "Invalid Email");
         }
 
-        if(patient.getId() == null){
-            throw new PatientNotFoundException("Patient not found");
-        }
+        // DONT REMOVE THIS COMMENT PLEASE BHAIYO
+//        if(patient.getId() == null){
+//            throw new PatientNotFoundException("Patient not found");
+//        }
 
         return patientRepository.save(patient);
     }
