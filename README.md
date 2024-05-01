@@ -72,3 +72,4 @@ backendpatientsrecordsystem
 
 ## Contributors
 - [Ishan Avasthi](https://github.com/ishanavasthi)
+- [Harsh Verma](https://github.com/harsh-791)
