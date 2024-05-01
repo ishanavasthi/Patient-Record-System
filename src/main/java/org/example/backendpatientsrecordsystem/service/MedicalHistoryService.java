@@ -1,5 +1,6 @@
 package org.example.backendpatientsrecordsystem.service;
 
+import org.example.backendpatientsrecordsystem.exceptions.MedicalHistoryNotFoundException;
 import org.example.backendpatientsrecordsystem.models.MedicalHistory;
 import org.example.backendpatientsrecordsystem.models.Patient;
 import org.example.backendpatientsrecordsystem.repositories.MedicalHistoryRepository;
@@ -23,10 +24,10 @@ public class MedicalHistoryService {
     }
 
     public MedicalHistory addOrUpdateMedicalHistory(MedicalHistory medicalHistory) {
+
         Patient patient = medicalHistory.getPatient();
 
         if (patient.getId() == null) {
-
             patient = patientRepository.save(patient);
             medicalHistory.setPatient(patient);
         }
@@ -35,9 +36,11 @@ public class MedicalHistoryService {
     }
 
     public void deleteMedicalHistoryById(Long medicalHistoryId) {
+        if (!medicalHistoryRepository.existsById(medicalHistoryId)) {
+            throw new MedicalHistoryNotFoundException(medicalHistoryId, "Medical History not found");
+        }
         medicalHistoryRepository.deleteById(medicalHistoryId);
     }
-
 
     public List<MedicalHistory> getMedicalHistoryListByPatientId(Long patientId) {
         return medicalHistoryRepository.findAllByPatientPatientId(patientId);
