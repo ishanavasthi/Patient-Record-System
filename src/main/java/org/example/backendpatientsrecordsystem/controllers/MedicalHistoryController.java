@@ -22,8 +22,6 @@ public class MedicalHistoryController {
         this.medicalHistoryService = medicalHistoryService;
     }
 
-//    @PostMapping("/")
-
     @PutMapping("/")
     public ResponseEntity<MedicalHistory> addMedicalHistory(@RequestBody MedicalHistory medicalHistory) {
         // Validate input (e.g., check if patient ID is provided)
