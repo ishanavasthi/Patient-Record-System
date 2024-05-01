@@ -24,7 +24,9 @@ public class MedicalHistoryService {
     }
 
     public MedicalHistory addOrUpdateMedicalHistory(MedicalHistory medicalHistory) {
-
+        if (medicalHistory.getPatient() == null) {
+            throw new MedicalHistoryNotFoundException("Patient not found");
+        }
         Patient patient = medicalHistory.getPatient();
 
         if (patient.getId() == null) {

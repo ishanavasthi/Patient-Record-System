@@ -1,5 +1,6 @@
 package org.example.backendpatientsrecordsystem.service;
 
+import org.example.backendpatientsrecordsystem.exceptions.MedicalHistoryNotFoundException;
 import org.example.backendpatientsrecordsystem.models.Appointment;
 import org.example.backendpatientsrecordsystem.models.Patient;
 import org.example.backendpatientsrecordsystem.repositories.AppointmentRepository;
@@ -29,8 +30,12 @@ public class AppointmentService {
     }
 
     public Appointment addOrUpdateAppointment(Appointment appointment) {
+        if (appointment.getPatient() == null) {
+            throw new MedicalHistoryNotFoundException("Patient not found");
+        }
+
         Patient patient = appointment.getPatient();
-//
+
         if (patient.getId() == null) {
 
             patient = patientRepository.save(patient);
