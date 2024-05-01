@@ -1,21 +1,27 @@
 package org.example.backendpatientsrecordsystem.controllers;
 
+import org.example.backendpatientsrecordsystem.models.MedicalHistory;
 import org.example.backendpatientsrecordsystem.models.Patient;
+import org.example.backendpatientsrecordsystem.service.MedicalHistoryService;
 import org.example.backendpatientsrecordsystem.service.PatientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/patients")
 public class PatientController {
 
     private final PatientService patientService;
+    private final MedicalHistoryService medicalHistoryService;
 
     @Autowired
-    public PatientController(PatientService patientService) {
+    public PatientController(PatientService patientService, MedicalHistoryService medicalHistoryService) {
         this.patientService = patientService;
+        this.medicalHistoryService = medicalHistoryService;
     }
 
     @PostMapping("")
@@ -36,5 +42,11 @@ public class PatientController {
     public ResponseEntity<String> deletePatientById(@PathVariable Long patientId) {
         patientService.deletePatientById(patientId);
         return new ResponseEntity<>("Patient deleted successfully", HttpStatus.OK);
+    }
+
+    @GetMapping("/{patientId}/medical-histories")
+    public ResponseEntity<List<MedicalHistory>> getMedicalHistoriesByPatientId(@PathVariable Long patientId) {
+        List<MedicalHistory> medicalHistories = medicalHistoryService.getMedicalHistoryListByPatientId(patientId);
+        return ResponseEntity.ok(medicalHistories);
     }
 }

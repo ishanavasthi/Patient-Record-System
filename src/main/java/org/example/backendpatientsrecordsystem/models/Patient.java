@@ -27,4 +27,10 @@ public class Patient {
     private String contactNumber;
     private String dateOfBirth;
 
+    public Long getPatientId() {
+        return id;
+    }
+
+
+
 }
