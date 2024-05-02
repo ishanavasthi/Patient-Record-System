@@ -51,6 +51,17 @@ backendpatientsrecordsystem
 │                       │   ├── PatientController.java
 │                       │   ├── AppointmentController.java
 │                       │   └── MedicalHistoryController.java
+│                       ├── DTOs
+│                       │   ├── ExceptionDto.java
+│                       │──exceptionHandlers
+│                       │   │── GlobalExceptionHandler.java
+│                       │──exceptions
+│                       │   │── AppointmentNotFoundException.java
+│                       │   │── MedicalHistoryNotFoundException.java
+│                       │   │── PatientNotFoundException.java
+│                       │   │── EmailValidator.java
+│                       │   │── WrongDOBException.java
+│                       │   │── WrongMobileException.java
 │                       ├── service
 │                       │   ├── PatientService.java
 │                       │   ├── AppointmentService.java
@@ -58,15 +69,14 @@ backendpatientsrecordsystem
 │                       ├── models
 │                       │   ├── Patient.java
 │                       │   ├── Appointment.java
-│                       │   └── MedicalHistory.java
-│                       ├── repositories
-│                       │   ├── PatientRepository.java
-│                       │   ├── AppointmentRepository.java
-│                       │   └── MedicalHistoryRepository.java
-│                       └── exceptions
-│                           ├── PatientNotFoundException.java
-│                           ├── AppointmentNotFoundException.java
-│                           └── MedicalHistoryNotFoundException.java
+│                       │   ├── MedicalHistory.java
+│                       │   ├── Doctor.java
+│                       │   └── User.java
+│                       └── repositories
+│                           ├── PatientRepository.java
+│                           ├── AppointmentRepository.java
+│                           └── MedicalHistoryRepository.java
+│                       
 └── pom.xml
 ```
 

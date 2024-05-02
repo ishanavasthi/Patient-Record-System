@@ -33,7 +33,7 @@ public class globalExceptionHandler {
     @ExceptionHandler(Exception.class)
     public ResponseEntity<ExceptionDto> handleGeneralException() {
         ExceptionDto exceptionDto = new ExceptionDto();
-        exceptionDto.setMessage("Exception! Something went wrong! Check the DOB");
+        exceptionDto.setMessage("Error! Something went wrong! May be issue with DOB");
         exceptionDto.setResolution("Please try again later");
         ResponseEntity<ExceptionDto> responseEntity = new ResponseEntity<>(exceptionDto, HttpStatus.BAD_REQUEST);
         return responseEntity;

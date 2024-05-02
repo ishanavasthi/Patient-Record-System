@@ -5,7 +5,6 @@ public class MedicalHistoryNotFoundException extends RuntimeException {
 
     public MedicalHistoryNotFoundException( String message){
         super(message);
-
     }
     public MedicalHistoryNotFoundException(Long id, String message){
         super(message);
