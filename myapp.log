@@ -25,3 +25,289 @@
 2024-05-02T11:21:05.343+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] b.BackendPatientsRecordSystemApplication : Started BackendPatientsRecordSystemApplication in 0.439 seconds (process running for 1219.93)
 2024-05-02T11:21:05.343+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
 2024-05-02T11:25:07.735+05:30  WARN 34648 --- [backendPatientsRecordSystem] [HikariPool-6 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Thread starvation or clock leap detected (housekeeper delta=4m2s505ms187µs300ns).
+2024-05-02T11:35:43.551+05:30  INFO 34648 --- [backendPatientsRecordSystem] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+2024-05-02T11:35:43.551+05:30  INFO 34648 --- [backendPatientsRecordSystem] [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-02T11:35:43.551+05:30  INFO 34648 --- [backendPatientsRecordSystem] [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2024-05-02T11:35:43.559+05:30  INFO 34648 --- [backendPatientsRecordSystem] [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2024-05-02T11:35:43.630+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] b.BackendPatientsRecordSystemApplication : Starting BackendPatientsRecordSystemApplication using Java 21.0.2 with PID 34648 (C:\Users\jsaks\OneDrive\Documents\Study\java\backendPatientsRecordSystem\target\classes started by jsaks in C:\Users\jsaks\OneDrive\Documents\Study\java\backendPatientsRecordSystem)
+2024-05-02T11:35:43.630+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] b.BackendPatientsRecordSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-05-02T11:35:43.751+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-02T11:35:43.767+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 3 JPA repository interfaces.
+2024-05-02T11:35:43.847+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-02T11:35:43.847+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-02T11:35:43.847+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-02T11:35:43.847+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-02T11:35:43.847+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 217 ms
+2024-05-02T11:35:43.878+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-02T11:35:43.878+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-02T11:35:43.878+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-02T11:35:43.894+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2024-05-02T11:35:43.894+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a77149a
+2024-05-02T11:35:43.894+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2024-05-02T11:35:43.942+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-02T11:35:43.958+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-02T11:35:44.056+05:30  WARN 34648 --- [backendPatientsRecordSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-02T11:35:44.197+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-02T11:35:44.220+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-02T11:35:44.220+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] b.BackendPatientsRecordSystemApplication : Started BackendPatientsRecordSystemApplication in 0.611 seconds (process running for 2098.796)
+2024-05-02T11:35:44.220+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-02T11:35:45.633+05:30  INFO 34648 --- [backendPatientsRecordSystem] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+2024-05-02T11:35:45.633+05:30  INFO 34648 --- [backendPatientsRecordSystem] [Thread-27] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-02T11:35:45.633+05:30  INFO 34648 --- [backendPatientsRecordSystem] [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2024-05-02T11:35:45.644+05:30  INFO 34648 --- [backendPatientsRecordSystem] [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2024-05-02T11:35:45.712+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] b.BackendPatientsRecordSystemApplication : Starting BackendPatientsRecordSystemApplication using Java 21.0.2 with PID 34648 (C:\Users\jsaks\OneDrive\Documents\Study\java\backendPatientsRecordSystem\target\classes started by jsaks in C:\Users\jsaks\OneDrive\Documents\Study\java\backendPatientsRecordSystem)
+2024-05-02T11:35:45.712+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] b.BackendPatientsRecordSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-05-02T11:35:45.805+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-02T11:35:45.821+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 3 JPA repository interfaces.
+2024-05-02T11:35:45.869+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-02T11:35:45.869+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-02T11:35:45.869+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-02T11:35:45.869+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-02T11:35:45.869+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 157 ms
+2024-05-02T11:35:45.901+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-02T11:35:45.901+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-02T11:35:45.901+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-02T11:35:45.901+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2024-05-02T11:35:45.901+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71b4dc8a
+2024-05-02T11:35:45.901+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2024-05-02T11:35:45.948+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-02T11:35:45.964+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-02T11:35:46.048+05:30  WARN 34648 --- [backendPatientsRecordSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-02T11:35:46.184+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-02T11:35:46.202+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-02T11:35:46.204+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] b.BackendPatientsRecordSystemApplication : Started BackendPatientsRecordSystemApplication in 0.511 seconds (process running for 2100.777)
+2024-05-02T11:35:46.204+05:30  INFO 34648 --- [backendPatientsRecordSystem] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-02T11:44:47.871+05:30  INFO 34648 --- [backendPatientsRecordSystem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-02T11:44:47.871+05:30  INFO 34648 --- [backendPatientsRecordSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2024-05-02T11:44:47.878+05:30  INFO 34648 --- [backendPatientsRecordSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2024-05-02T11:44:51.520+05:30  INFO 15692 --- [backendPatientsRecordSystem] [restartedMain] b.BackendPatientsRecordSystemApplication : Starting BackendPatientsRecordSystemApplication using Java 21.0.2 with PID 15692 (C:\Users\jsaks\OneDrive\Documents\Study\java\backendPatientsRecordSystem\target\classes started by jsaks in C:\Users\jsaks\OneDrive\Documents\Study\java\backendPatientsRecordSystem)
+2024-05-02T11:44:51.520+05:30  INFO 15692 --- [backendPatientsRecordSystem] [restartedMain] b.BackendPatientsRecordSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-05-02T11:44:51.550+05:30  INFO 15692 --- [backendPatientsRecordSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-02T11:44:51.550+05:30  INFO 15692 --- [backendPatientsRecordSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-02T11:44:52.068+05:30  INFO 15692 --- [backendPatientsRecordSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-02T11:44:52.132+05:30  INFO 15692 --- [backendPatientsRecordSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 3 JPA repository interfaces.
+2024-05-02T11:44:52.566+05:30  INFO 15692 --- [backendPatientsRecordSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-02T11:44:52.576+05:30  INFO 15692 --- [backendPatientsRecordSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-02T11:44:52.576+05:30  INFO 15692 --- [backendPatientsRecordSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-02T11:44:52.610+05:30  INFO 15692 --- [backendPatientsRecordSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-02T11:44:52.611+05:30  INFO 15692 --- [backendPatientsRecordSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1060 ms
+2024-05-02T11:44:52.729+05:30  INFO 15692 --- [backendPatientsRecordSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-02T11:44:52.778+05:30  INFO 15692 --- [backendPatientsRecordSystem] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-02T11:44:52.810+05:30  INFO 15692 --- [backendPatientsRecordSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-02T11:44:53.029+05:30  INFO 15692 --- [backendPatientsRecordSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-02T11:44:53.050+05:30  INFO 15692 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-02T11:44:53.331+05:30  INFO 15692 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f392efe
+2024-05-02T11:44:53.333+05:30  INFO 15692 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-02T11:44:54.098+05:30  INFO 15692 --- [backendPatientsRecordSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-02T11:44:54.155+05:30  INFO 15692 --- [backendPatientsRecordSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-02T11:44:54.166+05:30  WARN 15692 --- [backendPatientsRecordSystem] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'appointmentController' defined in file [C:\Users\jsaks\OneDrive\Documents\Study\java\backendPatientsRecordSystem\target\classes\org\example\backendpatientsrecordsystem\controllers\AppointmentController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'org.example.backendpatientsrecordsystem.service.AppointmentService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-05-02T11:44:54.167+05:30  INFO 15692 --- [backendPatientsRecordSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-02T11:44:54.169+05:30  INFO 15692 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-02T11:44:54.175+05:30  INFO 15692 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-02T11:44:54.176+05:30  INFO 15692 --- [backendPatientsRecordSystem] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-02T11:44:54.185+05:30  INFO 15692 --- [backendPatientsRecordSystem] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-02T11:44:54.219+05:30 ERROR 15692 --- [backendPatientsRecordSystem] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in org.example.backendpatientsrecordsystem.controllers.AppointmentController required a bean of type 'org.example.backendpatientsrecordsystem.service.AppointmentService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.example.backendpatientsrecordsystem.service.AppointmentService' in your configuration.
+
+2024-05-02T11:45:27.123+05:30  INFO 38684 --- [backendPatientsRecordSystem] [restartedMain] b.BackendPatientsRecordSystemApplication : Starting BackendPatientsRecordSystemApplication using Java 21.0.2 with PID 38684 (C:\Users\jsaks\OneDrive\Documents\Study\java\backendPatientsRecordSystem\target\classes started by jsaks in C:\Users\jsaks\OneDrive\Documents\Study\java\backendPatientsRecordSystem)
+2024-05-02T11:45:27.135+05:30  INFO 38684 --- [backendPatientsRecordSystem] [restartedMain] b.BackendPatientsRecordSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-05-02T11:45:27.175+05:30  INFO 38684 --- [backendPatientsRecordSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-02T11:45:27.175+05:30  INFO 38684 --- [backendPatientsRecordSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-02T11:45:27.723+05:30  INFO 38684 --- [backendPatientsRecordSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-02T11:45:27.783+05:30  INFO 38684 --- [backendPatientsRecordSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 3 JPA repository interfaces.
+2024-05-02T11:45:28.249+05:30  INFO 38684 --- [backendPatientsRecordSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-02T11:45:28.258+05:30  INFO 38684 --- [backendPatientsRecordSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-02T11:45:28.258+05:30  INFO 38684 --- [backendPatientsRecordSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-02T11:45:28.292+05:30  INFO 38684 --- [backendPatientsRecordSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-02T11:45:28.292+05:30  INFO 38684 --- [backendPatientsRecordSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1117 ms
+2024-05-02T11:45:28.405+05:30  INFO 38684 --- [backendPatientsRecordSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-02T11:45:28.449+05:30  INFO 38684 --- [backendPatientsRecordSystem] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-02T11:45:28.479+05:30  INFO 38684 --- [backendPatientsRecordSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-02T11:45:28.705+05:30  INFO 38684 --- [backendPatientsRecordSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-02T11:45:28.735+05:30  INFO 38684 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-02T11:45:29.030+05:30  INFO 38684 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20e816c6
+2024-05-02T11:45:29.033+05:30  INFO 38684 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-02T11:45:29.876+05:30  INFO 38684 --- [backendPatientsRecordSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-02T11:45:29.940+05:30  INFO 38684 --- [backendPatientsRecordSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-02T11:45:29.959+05:30  WARN 38684 --- [backendPatientsRecordSystem] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'appointmentController' defined in file [C:\Users\jsaks\OneDrive\Documents\Study\java\backendPatientsRecordSystem\target\classes\org\example\backendpatientsrecordsystem\controllers\AppointmentController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'org.example.backendpatientsrecordsystem.service.AppointmentServiceI' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-05-02T11:45:29.959+05:30  INFO 38684 --- [backendPatientsRecordSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-02T11:45:29.962+05:30  INFO 38684 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-02T11:45:29.967+05:30  INFO 38684 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-02T11:45:29.969+05:30  INFO 38684 --- [backendPatientsRecordSystem] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-02T11:45:29.977+05:30  INFO 38684 --- [backendPatientsRecordSystem] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-02T11:45:29.999+05:30 ERROR 38684 --- [backendPatientsRecordSystem] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in org.example.backendpatientsrecordsystem.controllers.AppointmentController required a bean of type 'org.example.backendpatientsrecordsystem.service.AppointmentServiceI' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.example.backendpatientsrecordsystem.service.AppointmentServiceI' in your configuration.
+
+2024-05-02T11:47:43.759+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] b.BackendPatientsRecordSystemApplication : Starting BackendPatientsRecordSystemApplication using Java 21.0.2 with PID 26344 (C:\Users\jsaks\OneDrive\Documents\Study\java\backendPatientsRecordSystem\target\classes started by jsaks in C:\Users\jsaks\OneDrive\Documents\Study\java\backendPatientsRecordSystem)
+2024-05-02T11:47:43.761+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] b.BackendPatientsRecordSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-05-02T11:47:43.798+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-02T11:47:43.798+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-02T11:47:44.302+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-02T11:47:44.355+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 3 JPA repository interfaces.
+2024-05-02T11:47:44.738+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-02T11:47:44.751+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-02T11:47:44.752+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-02T11:47:44.789+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-02T11:47:44.789+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 991 ms
+2024-05-02T11:47:44.908+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-02T11:47:44.958+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-02T11:47:44.987+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-02T11:47:45.178+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-02T11:47:45.202+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-02T11:47:45.448+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3666bd59
+2024-05-02T11:47:45.450+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-02T11:47:46.209+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-02T11:47:46.275+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-02T11:47:46.497+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-05-02T11:47:46.874+05:30  WARN 26344 --- [backendPatientsRecordSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-02T11:47:47.156+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-02T11:47:47.187+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-02T11:47:47.194+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] b.BackendPatientsRecordSystemApplication : Started BackendPatientsRecordSystemApplication in 3.755 seconds (process running for 4.33)
+2024-05-02T11:50:51.270+05:30  INFO 26344 --- [backendPatientsRecordSystem] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-02T11:50:51.270+05:30  INFO 26344 --- [backendPatientsRecordSystem] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-02T11:50:51.271+05:30  INFO 26344 --- [backendPatientsRecordSystem] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-02T11:50:51.402+05:30  WARN 26344 --- [backendPatientsRecordSystem] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "202-07-09": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '202-07-09' could not be parsed at index 0]
+2024-05-02T11:51:10.270+05:30  INFO 26344 --- [backendPatientsRecordSystem] [http-nio-8080-exec-4] o.e.b.controllers.AppointmentController  : Creating/Updating appointment
+2024-05-02T11:53:51.052+05:30  INFO 26344 --- [backendPatientsRecordSystem] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+2024-05-02T11:53:51.061+05:30  INFO 26344 --- [backendPatientsRecordSystem] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-02T11:53:51.066+05:30  INFO 26344 --- [backendPatientsRecordSystem] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-02T11:53:51.076+05:30  INFO 26344 --- [backendPatientsRecordSystem] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-02T11:53:51.171+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] b.BackendPatientsRecordSystemApplication : Starting BackendPatientsRecordSystemApplication using Java 21.0.2 with PID 26344 (C:\Users\jsaks\OneDrive\Documents\Study\java\backendPatientsRecordSystem\target\classes started by jsaks in C:\Users\jsaks\OneDrive\Documents\Study\java\backendPatientsRecordSystem)
+2024-05-02T11:53:51.172+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] b.BackendPatientsRecordSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-05-02T11:53:51.333+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-02T11:53:51.346+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 3 JPA repository interfaces.
+2024-05-02T11:53:51.447+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-02T11:53:51.450+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-02T11:53:51.450+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-02T11:53:51.461+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-02T11:53:51.461+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 287 ms
+2024-05-02T11:53:51.505+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-02T11:53:51.508+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-02T11:53:51.512+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-02T11:53:51.513+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-05-02T11:53:51.530+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5537fa0c
+2024-05-02T11:53:51.530+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-05-02T11:53:51.592+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-02T11:53:51.623+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-02T11:53:51.728+05:30  WARN 26344 --- [backendPatientsRecordSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-02T11:53:51.838+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-02T11:53:51.853+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-02T11:53:51.856+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] b.BackendPatientsRecordSystemApplication : Started BackendPatientsRecordSystemApplication in 0.72 seconds (process running for 368.992)
+2024-05-02T11:53:51.858+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-02T11:53:53.273+05:30  INFO 26344 --- [backendPatientsRecordSystem] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+2024-05-02T11:53:53.280+05:30  INFO 26344 --- [backendPatientsRecordSystem] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-02T11:53:53.281+05:30  INFO 26344 --- [backendPatientsRecordSystem] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-05-02T11:53:53.286+05:30  INFO 26344 --- [backendPatientsRecordSystem] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-05-02T11:53:53.350+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] b.BackendPatientsRecordSystemApplication : Starting BackendPatientsRecordSystemApplication using Java 21.0.2 with PID 26344 (C:\Users\jsaks\OneDrive\Documents\Study\java\backendPatientsRecordSystem\target\classes started by jsaks in C:\Users\jsaks\OneDrive\Documents\Study\java\backendPatientsRecordSystem)
+2024-05-02T11:53:53.351+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] b.BackendPatientsRecordSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-05-02T11:53:53.455+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-02T11:53:53.463+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 3 JPA repository interfaces.
+2024-05-02T11:53:53.527+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-02T11:53:53.528+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-02T11:53:53.528+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-02T11:53:53.538+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-02T11:53:53.539+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 186 ms
+2024-05-02T11:53:53.564+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-02T11:53:53.565+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-02T11:53:53.568+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-02T11:53:53.569+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-05-02T11:53:53.579+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76e7d6e1
+2024-05-02T11:53:53.579+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-05-02T11:53:53.622+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-02T11:53:53.638+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-02T11:53:53.720+05:30  WARN 26344 --- [backendPatientsRecordSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-02T11:53:53.779+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-02T11:53:53.789+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-02T11:53:53.791+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] b.BackendPatientsRecordSystemApplication : Started BackendPatientsRecordSystemApplication in 0.46 seconds (process running for 370.927)
+2024-05-02T11:53:53.792+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-02T11:54:05.867+05:30  INFO 26344 --- [backendPatientsRecordSystem] [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-02T11:54:05.867+05:30  INFO 26344 --- [backendPatientsRecordSystem] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-02T11:54:05.868+05:30  INFO 26344 --- [backendPatientsRecordSystem] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-02T11:54:05.872+05:30  INFO 26344 --- [backendPatientsRecordSystem] [http-nio-8080-exec-4] o.e.b.controllers.AppointmentController  : Getting appointment with id 1
+2024-05-02T11:56:20.345+05:30  INFO 26344 --- [backendPatientsRecordSystem] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-05-02T11:56:20.351+05:30  INFO 26344 --- [backendPatientsRecordSystem] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-02T11:56:20.351+05:30  INFO 26344 --- [backendPatientsRecordSystem] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-05-02T11:56:20.355+05:30  INFO 26344 --- [backendPatientsRecordSystem] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-05-02T11:56:20.417+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] b.BackendPatientsRecordSystemApplication : Starting BackendPatientsRecordSystemApplication using Java 21.0.2 with PID 26344 (C:\Users\jsaks\OneDrive\Documents\Study\java\backendPatientsRecordSystem\target\classes started by jsaks in C:\Users\jsaks\OneDrive\Documents\Study\java\backendPatientsRecordSystem)
+2024-05-02T11:56:20.418+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] b.BackendPatientsRecordSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-05-02T11:56:20.537+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-02T11:56:20.545+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 3 JPA repository interfaces.
+2024-05-02T11:56:20.606+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-02T11:56:20.607+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-02T11:56:20.607+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-02T11:56:20.620+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-02T11:56:20.620+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 201 ms
+2024-05-02T11:56:20.648+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-02T11:56:20.650+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-02T11:56:20.653+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-02T11:56:20.654+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2024-05-02T11:56:20.666+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ea76f5
+2024-05-02T11:56:20.666+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2024-05-02T11:56:20.713+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-02T11:56:20.737+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-02T11:56:20.826+05:30  WARN 26344 --- [backendPatientsRecordSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-02T11:56:20.901+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-02T11:56:20.915+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-02T11:56:20.920+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] b.BackendPatientsRecordSystemApplication : Started BackendPatientsRecordSystemApplication in 0.52 seconds (process running for 518.056)
+2024-05-02T11:56:20.921+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-02T11:58:41.378+05:30  INFO 26344 --- [backendPatientsRecordSystem] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-05-02T11:58:41.384+05:30  INFO 26344 --- [backendPatientsRecordSystem] [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-02T11:58:41.385+05:30  INFO 26344 --- [backendPatientsRecordSystem] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2024-05-02T11:58:41.390+05:30  INFO 26344 --- [backendPatientsRecordSystem] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2024-05-02T11:58:41.456+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] b.BackendPatientsRecordSystemApplication : Starting BackendPatientsRecordSystemApplication using Java 21.0.2 with PID 26344 (C:\Users\jsaks\OneDrive\Documents\Study\java\backendPatientsRecordSystem\target\classes started by jsaks in C:\Users\jsaks\OneDrive\Documents\Study\java\backendPatientsRecordSystem)
+2024-05-02T11:58:41.457+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] b.BackendPatientsRecordSystemApplication : No active profile set, falling back to 1 default profile: "default"
+2024-05-02T11:58:41.572+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-02T11:58:41.581+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 3 JPA repository interfaces.
+2024-05-02T11:58:41.650+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-02T11:58:41.650+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-02T11:58:41.650+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-02T11:58:41.660+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-02T11:58:41.660+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 202 ms
+2024-05-02T11:58:41.684+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-02T11:58:41.686+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-02T11:58:41.689+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-02T11:58:41.689+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2024-05-02T11:58:41.702+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@790f6ee3
+2024-05-02T11:58:41.702+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2024-05-02T11:58:41.740+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-02T11:58:41.761+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-02T11:58:41.846+05:30  WARN 26344 --- [backendPatientsRecordSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-02T11:58:41.915+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-05-02T11:58:41.924+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-02T11:58:41.926+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] b.BackendPatientsRecordSystemApplication : Started BackendPatientsRecordSystemApplication in 0.488 seconds (process running for 659.062)
+2024-05-02T11:58:41.927+05:30  INFO 26344 --- [backendPatientsRecordSystem] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-05-02T11:59:10.499+05:30  INFO 26344 --- [backendPatientsRecordSystem] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-02T11:59:10.499+05:30  INFO 26344 --- [backendPatientsRecordSystem] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-02T11:59:10.501+05:30  INFO 26344 --- [backendPatientsRecordSystem] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-05-02T11:59:10.505+05:30  INFO 26344 --- [backendPatientsRecordSystem] [http-nio-8080-exec-2] o.e.b.controllers.AppointmentController  : Getting appointment with id 1
+2024-05-02T11:59:58.559+05:30  INFO 26344 --- [backendPatientsRecordSystem] [http-nio-8080-exec-3] o.e.b.controllers.PatientController      : Getting all patients list
+2024-05-02T12:00:14.059+05:30  INFO 26344 --- [backendPatientsRecordSystem] [http-nio-8080-exec-4] o.e.b.controllers.PatientController      : Fetching patient with ID 9
+2024-05-02T12:15:44.970+05:30  WARN 26344 --- [backendPatientsRecordSystem] [HikariPool-5 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=5m2s969ms194µs900ns).

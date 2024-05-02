@@ -80,7 +80,7 @@ public class PatientController {
         return ResponseEntity.ok(appointments);
     }
 
-    @GetMapping("/")
+    @GetMapping("/all")
     public List<Patient> getAllPatients() {
         logger.info("Getting all patients list");
 

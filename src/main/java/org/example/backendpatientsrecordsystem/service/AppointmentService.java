@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class AppointmentService {
+public class AppointmentService implements AppointmentServiceI {
 
     private final AppointmentRepository appointmentRepository;
     private final PatientRepository patientRepository;

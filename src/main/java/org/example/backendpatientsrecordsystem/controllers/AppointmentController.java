@@ -2,6 +2,7 @@ package org.example.backendpatientsrecordsystem.controllers;
 
 import org.example.backendpatientsrecordsystem.models.Appointment;
 import org.example.backendpatientsrecordsystem.service.AppointmentService;
+import org.example.backendpatientsrecordsystem.service.AppointmentServiceI;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,10 +15,10 @@ import org.springframework.web.bind.annotation.*;
 public class AppointmentController {
     Logger logger = LoggerFactory.getLogger(AppointmentController.class);
 
-    private final AppointmentService appointmentService;
+    private final AppointmentServiceI appointmentService;
 
     @Autowired
-    public AppointmentController(AppointmentService appointmentService) {
+    public AppointmentController(AppointmentServiceI appointmentService) {
         this.appointmentService = appointmentService;
     }
 
