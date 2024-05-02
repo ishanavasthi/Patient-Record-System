@@ -86,3 +86,4 @@ backendpatientsrecordsystem
 - [Saksham Jain](https://github.com/sailingsam)
 - [Suryansh Dubey](https://github.com/suryansh-d)
 - [Hemkesh Kantawala](https://github.com/hemkeshkantawala11)
+- [Amrutha CA](https://github.com/Amruthacagithub)
